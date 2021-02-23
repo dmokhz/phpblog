@@ -1,0 +1,20 @@
+{
+    "name": "dmokhz/blog",
+    "description": "A simple website where users can upload their blog.",
+    "authors": [
+        {
+            "name": "dmokhz",
+            "email": "mokhuazhung@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.2"
+    },
+
+    "autoload": {
+        "classmap":[
+           "libraries",
+           "config"
+        ]
+    }
+}
